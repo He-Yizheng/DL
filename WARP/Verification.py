@@ -122,7 +122,7 @@ if __name__ == "__main__":
     time_start = time.time()
     print("BEGIN")
 
-    file = open(f"WARP/DL/result/GPU_verify.txt", "a")
+    file = open(f"WARP/GPU_verify.txt", "a")
     file.write(f"DIFF rounds: {diff_round}\n")
     file.write(f"DL rounds: {dl_round}\n")
     file.write(f"LIN rounds: {lin_round}\n\n")
