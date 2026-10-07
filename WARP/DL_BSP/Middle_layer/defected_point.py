@@ -18,7 +18,7 @@ class DefectPointParser:
     def parse(self):
         input_path = Path(self.input_file)
         if not input_path.exists():
-            raise FileNotFoundError("文件不存在: %s" % input_path)
+            raise FileNotFoundError("file not found: %s" % input_path)
 
         lines = input_path.read_text(encoding="utf-8", errors="ignore").splitlines()
         solutions = self.parse_solutions(lines)
