@@ -17,7 +17,7 @@ permutation = [1, 2, 11, 6, 3, 0, 9, 4, 7, 10, 13, 14, 5, 8, 15, 12]
 trail = [[9], [6], [3, 8], [4, 6], [3, 7, 12], [4, 8, 15], [12, 13, 14], [10, 11], [2], [1]]
 x = {"%d_%d" % (r, i): [0.0 for _ in range(16)] for r in range(len(trail)) for i in trail[r]}
 
-file = open("./twine/dl/cp/truncated/result/relation.txt", "w")
+file = open("TWINE/Middle_layer/relation.txt", "w")
 
 def sbox_layer(cell):
     temp = [0.0 for _ in range(16)]
