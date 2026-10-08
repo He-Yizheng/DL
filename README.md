@@ -1,15 +1,17 @@
 # Revisiting Differential-Linear Cryptanalysis via Set Propagation
 
-This repository contains the code accompanying our work on differential-linear cryptanalysis using set propagation. It is provided anonymously for peer review.
+This repository contains the anonymized source code accompanying our paper *Revisiting Differential-Linear Cryptanalysis via Set Propagation*.
 
-## Current Status
+## Code Availability
 
-The code is being organized and uploaded progressively.
+The WARP directory provides a complete implementation and serves as the reference implementation of the proposed DL-BSP and DL-PSP frameworks. For the other evaluated ciphers, the repository provides the key cipher-specific code used for set propagation, correlation evaluation, and experimental verification. These directories contain the core implementation components but do not constitute complete pipelines.
 
 | Cipher | Code availability |
 | --- | --- |
-| WARP | Complete |
-| ASCON | Partially available |
-| SKINNY | Partially available |
+| WARP | Complete  implementation |
+| ASCON | Key implementation components |
+| SKINNY-128 | Key implementation components |
+| LBlock | Key implementation components |
+| TWINE | Key implementation components |
 
-The complete WARP code is currently available. Only part of the ASCON and SKINNY code has been uploaded so far. The remaining code is being organized and is expected to be uploaded within the next few days.
+The provided materials are intended to clarify the implementation details and facilitate verification of the main results reported in the paper.
